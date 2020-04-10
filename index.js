@@ -6,8 +6,14 @@ class Greeting {
   }
 
   add(a, b) {
-    for (let i = 0; i < b; ++i) {
-      a++;
+    if (b > 0) {
+      for (let i = 0; i < b; ++i) {
+        a++;
+      }
+    } else {
+      for (let i = 0; i < -b; ++i) {
+        a--;
+      }
     }
     return a;
   }

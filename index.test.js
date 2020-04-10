@@ -7,5 +7,6 @@ test('uuid', () => {
 
 test('add', () => {
   const greeting = new Greeting();
-  expect(greeting.add(20, 6)).toEqual(26);
+  expect(greeting.add(20, 6)).toEqual(20 + 6);
+  expect(greeting.add(20, -6)).toEqual(20 - 6);
 });
