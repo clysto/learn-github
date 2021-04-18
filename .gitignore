@@ -1,0 +1,9 @@
+.DS_Store
+.direnv
+*.pyc
+__pycache__/
+.idea
+.env
+.vscode
+upload
+.pytest_cache
